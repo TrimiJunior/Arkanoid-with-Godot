@@ -1,0 +1,33 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://stage_blocks/block/element_green_rectangle_glossy.png" type="Texture" id=1]
+[ext_resource path="res://stage_blocks/block/bolck.gd" type="Script" id=2]
+[ext_resource path="res://stage_blocks/block/element_blue_rectangle_glossy.png" type="Texture" id=3]
+[ext_resource path="res://stage_blocks/block/element_yellow_rectangle_glossy.png" type="Texture" id=4]
+[ext_resource path="res://stage_blocks/block/element_purple_rectangle_glossy.png" type="Texture" id=5]
+[ext_resource path="res://stage_blocks/block/element_grey_rectangle_glossy.png" type="Texture" id=6]
+[ext_resource path="res://stage_blocks/block/element_red_rectangle_glossy.png" type="Texture" id=7]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "colors",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 16 )
+
+[node name="bolck" type="StaticBody2D" groups=["gr_blocks"]]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource( 2 )
+
+[node name="color_sprites" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+animation = "colors"
+speed_scale = 0.1
+
+[node name="col_block" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )

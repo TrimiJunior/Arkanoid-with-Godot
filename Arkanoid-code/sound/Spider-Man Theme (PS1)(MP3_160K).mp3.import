@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Spider-Man Theme (PS1)(MP3_160K).mp3-367674d9e98f17d7869cbde1472f331f.mp3str"
+
+[deps]
+
+source_file="res://sound/Spider-Man Theme (PS1)(MP3_160K).mp3"
+dest_files=[ "res://.import/Spider-Man Theme (PS1)(MP3_160K).mp3-367674d9e98f17d7869cbde1472f331f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,52 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://enviroment/powerupBlue_shield.png" type="Texture" id=1]
+[ext_resource path="res://enviroment/powerupYellow_bolt.png" type="Texture" id=2]
+[ext_resource path="res://enviroment/power_up.gd" type="Script" id=3]
+[ext_resource path="res://enviroment/powerupGreen_star.png" type="Texture" id=4]
+[ext_resource path="res://sound/Pickup_007.wav" type="AudioStream" id=5]
+
+[sub_resource type="PhysicsMaterial" id=3]
+friction = 0.0
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "gift",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 16 )
+
+[node name="power_up" type="RigidBody2D" groups=["power"]]
+collision_layer = 4
+physics_material_override = SubResource( 3 )
+gravity_scale = 0.0
+contacts_reported = 1
+contact_monitor = true
+linear_velocity = Vector2( 0, 360 )
+linear_damp = 0.0
+angular_damp = 0.0
+script = ExtResource( 3 )
+
+[node name="gift_sprites" type="AnimatedSprite" parent="."]
+position = Vector2( -0.5, 0 )
+scale = Vector2( 0.970588, 1 )
+frames = SubResource( 2 )
+animation = "gift"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 7.98702e-06, -2.38419e-07 )
+scale = Vector2( 0.999999, 0.999999 )
+shape = SubResource( 1 )
+
+[node name="vs_notifire" type="VisibilityNotifier2D" parent="."]
+
+[node name="sound_pickup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -20.0
+
+[connection signal="body_entered" from="." to="." method="_on_power_up_body_entered"]
+[connection signal="screen_exited" from="vs_notifire" to="." method="_on_vs_notifire_screen_exited"]

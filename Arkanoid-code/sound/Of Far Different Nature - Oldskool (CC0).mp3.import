@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Of Far Different Nature - Oldskool (CC0).mp3-97e52c76933c9a5cd9f782366b1016de.mp3str"
+
+[deps]
+
+source_file="res://sound/Of Far Different Nature - Oldskool (CC0).mp3"
+dest_files=[ "res://.import/Of Far Different Nature - Oldskool (CC0).mp3-97e52c76933c9a5cd9f782366b1016de.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

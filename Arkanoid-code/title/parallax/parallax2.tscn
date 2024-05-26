@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://title/parallax/galaxia-arte-digital_3840x2160_xtrafondos.com.jpg" type="Texture" id=1]
+[ext_resource path="res://title/parallax/parallax.gd" type="Script" id=2]
+
+[node name="parallax" type="ParallaxBackground"]
+script = ExtResource( 2 )
+
+[node name="parallax_layer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="sprite" type="Sprite" parent="parallax_layer"]
+position = Vector2( 960, 380 )
+scale = Vector2( 0.5, 0.351852 )
+texture = ExtResource( 1 )

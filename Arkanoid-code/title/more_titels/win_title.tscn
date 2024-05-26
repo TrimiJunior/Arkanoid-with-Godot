@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://fonts/game_name_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/PixeloidSans-Bold.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+outline_size = 4
+outline_color = Color( 0.0705882, 0.0705882, 0.0705882, 1 )
+extra_spacing_char = 1
+font_data = ExtResource( 2 )
+
+[node name="win_title" type="HBoxContainer"]
+anchor_right = 1.0
+margin_bottom = 91.0
+
+[node name="text" type="VBoxContainer" parent="."]
+margin_left = 174.0
+margin_right = 425.0
+margin_bottom = 103.0
+size_flags_horizontal = 6
+size_flags_vertical = 0
+
+[node name="you_win" type="Label" parent="text"]
+margin_right = 251.0
+margin_bottom = 62.0
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 1 )
+text = "You Win"
+
+[node name="well_done" type="Label" parent="text"]
+margin_left = 32.0
+margin_top = 66.0
+margin_right = 218.0
+margin_bottom = 103.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+custom_fonts/font = SubResource( 1 )
+text = "well done"
+align = 2
+max_lines_visible = 1

@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://enviroment/enviroment.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/level.gd" type="Script" id=2]
+[ext_resource path="res://title/time_count.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ball/ball.tscn" type="PackedScene" id=4]
+[ext_resource path="res://player/player.tscn" type="PackedScene" id=5]
+[ext_resource path="res://enviroment/star_move/stars_move.tscn" type="PackedScene" id=6]
+[ext_resource path="res://player/Sprite Sheet.png" type="Texture" id=7]
+
+[node name="level" type="Node"]
+script = ExtResource( 2 )
+
+[node name="enviroment" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4, 0 )
+
+[node name="stars_move" parent="." instance=ExtResource( 6 )]
+
+[node name="time_count" parent="." instance=ExtResource( 3 )]
+
+[node name="timer" type="Timer" parent="time_count"]
+wait_time = 110.0
+one_shot = true
+
+[node name="one_second" type="Timer" parent="time_count"]
+
+[node name="lives" type="Sprite" parent="time_count"]
+position = Vector2( 579, 743 )
+scale = Vector2( 1, 0.875 )
+texture = ExtResource( 7 )
+hframes = 3
+
+[node name="player" parent="." instance=ExtResource( 5 )]
+position = Vector2( 300, 660 )
+
+[node name="ball" parent="player" instance=ExtResource( 4 )]
+position = Vector2( 0, -35 )
+
+[connection signal="timeout" from="time_count/timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="time_count/one_second" to="." method="one_second_timeout"]
+
+[editable path="time_count"]

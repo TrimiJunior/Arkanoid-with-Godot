@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://border/border.tscn" type="PackedScene" id=2]
+[ext_resource path="res://title/parallax/parallax.tscn" type="PackedScene" id=3]
+
+[node name="enviroment" type="Node2D"]
+
+[node name="border" parent="." instance=ExtResource( 2 )]
+
+[node name="parallax" parent="." instance=ExtResource( 3 )]

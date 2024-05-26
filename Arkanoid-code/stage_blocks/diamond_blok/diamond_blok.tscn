@@ -1,0 +1,36 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://stage_blocks/diamond_blok/element_blue_diamond_glossy.png" type="Texture" id=1]
+[ext_resource path="res://stage_blocks/diamond_blok/element_grey_diamond_glossy.png" type="Texture" id=2]
+[ext_resource path="res://stage_blocks/diamond_blok/element_red_diamond_glossy.png" type="Texture" id=3]
+[ext_resource path="res://stage_blocks/diamond_blok/element_yellow_diamond_glossy.png" type="Texture" id=4]
+[ext_resource path="res://stage_blocks/diamond_blok/element_purple_diamond_glossy.png" type="Texture" id=5]
+[ext_resource path="res://stage_blocks/diamond_blok/element_green_diamond_glossy.png" type="Texture" id=6]
+[ext_resource path="res://stage_blocks/diamond_blok/diamond_blok.gd" type="Script" id=7]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "colors",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 17.399, 17.399 )
+
+[node name="diamond_blok" type="StaticBody2D" groups=["gr_blocks"]]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource( 7 )
+
+[node name="color_sprites" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "colors"
+frame = 3
+speed_scale = 0.1
+
+[node name="col_blok" type="CollisionShape2D" parent="."]
+position = Vector2( -9.53674e-07, -4.76837e-07 )
+rotation = -0.802851
+shape = SubResource( 2 )

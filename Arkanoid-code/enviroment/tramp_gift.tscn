@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://enviroment/pill_red.png" type="Texture" id=1]
+[ext_resource path="res://enviroment/tramp_gift.gd" type="Script" id=2]
+[ext_resource path="res://enviroment/pill_blue.png" type="Texture" id=3]
+[ext_resource path="res://enviroment/pill_yellow.png" type="Texture" id=4]
+
+[sub_resource type="PhysicsMaterial" id=2]
+friction = 0.0
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "capsuls",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 5.78509
+height = 12.5032
+
+[node name="tramp_gift" type="RigidBody2D" groups=["tramp"]]
+collision_layer = 4
+physics_material_override = SubResource( 2 )
+contacts_reported = 1
+contact_monitor = true
+can_sleep = false
+linear_velocity = Vector2( 0, 260 )
+angular_damp = 0.0
+script = ExtResource( 2 )
+
+[node name="caps_sprites" type="AnimatedSprite" parent="."]
+frames = SubResource( 3 )
+animation = "capsuls"
+
+[node name="col_tramp_gift" type="CollisionShape2D" parent="."]
+rotation = 0.872665
+shape = SubResource( 1 )
+
+[node name="vs_notifire" type="VisibilityNotifier2D" parent="."]
+position = Vector2( 1.49012e-07, 4.17233e-07 )
+scale = Vector2( 0.8, 0.8 )
+
+[connection signal="body_entered" from="." to="." method="_on_tramp_gift_body_entered"]
+[connection signal="screen_exited" from="vs_notifire" to="." method="_on_vs_notifire_screen_exited"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/serial_impluse_30secmaster.mp3-4e272b9a9bae28518ac1d6091bd1c77b.mp3str"
+
+[deps]
+
+source_file="res://sound/serial_impluse_30secmaster.mp3"
+dest_files=[ "res://.import/serial_impluse_30secmaster.mp3-4e272b9a9bae28518ac1d6091bd1c77b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

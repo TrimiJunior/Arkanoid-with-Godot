@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://title/state/state_font.tres" type="DynamicFont" id=1]
+
+[node name="text_gift" type="Node2D"]
+
+[node name="text" type="Label" parent="."]
+modulate = Color( 1, 1, 1, 0.627451 )
+margin_right = 47.0
+margin_bottom = 11.0
+size_flags_horizontal = 4
+custom_fonts/font = ExtResource( 1 )
+text = "Expand"
+max_lines_visible = 2

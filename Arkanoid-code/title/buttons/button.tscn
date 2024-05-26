@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://fonts/PixeloidSans-Bold.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+outline_size = 3
+outline_color = Color( 0.32549, 0, 0.482353, 0.988235 )
+extra_spacing_char = 3
+font_data = ExtResource( 1 )
+
+[node name="button" type="Button"]
+anchor_right = 1.0
+margin_bottom = 55.0
+focus_mode = 0
+custom_colors/font_color_hover = Color( 1, 0.937255, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+keep_pressed_outside = true
+text = "Prueba"
+flat = true

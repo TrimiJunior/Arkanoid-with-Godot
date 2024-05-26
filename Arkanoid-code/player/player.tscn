@@ -1,0 +1,83 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://player/paddleBlu.png" type="Texture" id=1]
+[ext_resource path="res://player/player.gd" type="Script" id=2]
+[ext_resource path="res://sound/Pickup_007.wav" type="AudioStream" id=3]
+[ext_resource path="res://title/state/text_gift.tscn" type="PackedScene" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 50, 10 )
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.352941 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "respaw"
+length = 2.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.588235 ), Color( 1, 1, 1, 0.352941 ), Color( 1, 1, 1, 0.588235 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.588235 ), Color( 1, 1, 1, 0.352941 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="player" type="KinematicBody2D"]
+collision_mask = 22
+script = ExtResource( 2 )
+
+[node name="spr_player" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="col_player" type="CollisionShape2D" parent="."]
+position = Vector2( 0.5, 0 )
+shape = SubResource( 1 )
+
+[node name="sound_pickup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -20.0
+
+[node name="timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="respaw_time" type="Timer" parent="."]
+wait_time = 2.1
+one_shot = true
+
+[node name="respaw_anim" type="AnimationPlayer" parent="."]
+reset_on_save = false
+anims/RESET = SubResource( 2 )
+anims/respaw = SubResource( 3 )
+
+[node name="text_gift" parent="." instance=ExtResource( 4 )]
+position = Vector2( -24, -40 )
+
+[node name="text" parent="text_gift" index="0"]
+max_lines_visible = 1
+
+[node name="show_timer" type="Timer" parent="text_gift"]
+wait_time = 2.0
+
+[connection signal="timeout" from="timer" to="." method="timer_timeout"]
+[connection signal="timeout" from="respaw_time" to="." method="_on_respaw_time_timeout"]
+[connection signal="timeout" from="text_gift/show_timer" to="." method="_on_show_timer_timeout"]
+
+[editable path="text_gift"]

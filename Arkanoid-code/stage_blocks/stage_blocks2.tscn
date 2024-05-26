@@ -1,0 +1,1289 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://stage_blocks/block/bolck.tscn" type="PackedScene" id=1]
+[ext_resource path="res://stage_blocks/diamond_blok/diamond_blok.tscn" type="PackedScene" id=2]
+
+[node name="stage_blocks2" type="Node2D"]
+
+[node name="bolck175" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck175" index="0"]
+frame = 2
+
+[node name="bolck176" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck176" index="0"]
+frame = 2
+
+[node name="bolck177" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck177" index="0"]
+frame = 2
+
+[node name="bolck178" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck178" index="0"]
+frame = 2
+
+[node name="bolck179" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck179" index="0"]
+frame = 2
+
+[node name="bolck180" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck180" index="0"]
+frame = 2
+
+[node name="bolck181" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck181" index="0"]
+frame = 2
+
+[node name="bolck182" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck182" index="0"]
+frame = 2
+
+[node name="bolck29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck29" index="0"]
+frame = 4
+
+[node name="bolck32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck32" index="0"]
+frame = 4
+
+[node name="bolck37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck37" index="0"]
+frame = 4
+
+[node name="bolck40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck40" index="0"]
+frame = 4
+
+[node name="bolck45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck45" index="0"]
+frame = 4
+
+[node name="bolck47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck47" index="0"]
+frame = 4
+
+[node name="bolck48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck48" index="0"]
+frame = 4
+
+[node name="bolck50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck50" index="0"]
+frame = 4
+
+[node name="bolck53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck53" index="0"]
+frame = 4
+
+[node name="bolck56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck56" index="0"]
+frame = 4
+
+[node name="bolck65" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck65" index="0"]
+frame = 4
+
+[node name="bolck66" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck66" index="0"]
+frame = 2
+
+[node name="bolck75" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck75" index="0"]
+frame = 2
+
+[node name="bolck125" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck125" index="0"]
+frame = 2
+
+[node name="bolck67" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck67" index="0"]
+frame = 2
+
+[node name="bolck68" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck68" index="0"]
+frame = 2
+
+[node name="bolck74" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck74" index="0"]
+frame = 2
+
+[node name="bolck77" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck77" index="0"]
+frame = 2
+
+[node name="bolck71" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck71" index="0"]
+frame = 2
+
+[node name="bolck79" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck79" index="0"]
+frame = 2
+
+[node name="bolck81" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck81" index="0"]
+frame = 2
+
+[node name="bolck97" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck97" index="0"]
+frame = 2
+
+[node name="bolck126" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck126" index="0"]
+frame = 2
+
+[node name="bolck99" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck99" index="0"]
+frame = 2
+
+[node name="bolck72" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck72" index="0"]
+frame = 2
+
+[node name="bolck83" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck83" index="0"]
+frame = 4
+
+[node name="bolck92" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck92" index="0"]
+frame = 4
+
+[node name="bolck94" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck94" index="0"]
+frame = 4
+
+[node name="bolck93" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck93" index="0"]
+frame = 4
+
+[node name="bolck95" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck95" index="0"]
+frame = 4
+
+[node name="bolck96" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck96" index="0"]
+frame = 4
+
+[node name="bolck98" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck98" index="0"]
+frame = 4
+
+[node name="bolck100" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck100" index="0"]
+frame = 4
+
+[node name="bolck101" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck101" index="0"]
+frame = 4
+
+[node name="bolck102" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck102" index="0"]
+frame = 4
+
+[node name="bolck103" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck103" index="0"]
+frame = 4
+
+[node name="bolck104" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck104" index="0"]
+frame = 4
+
+[node name="bolck105" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck105" index="0"]
+frame = 4
+
+[node name="bolck106" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck106" index="0"]
+frame = 4
+
+[node name="bolck107" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 168 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck107" index="0"]
+frame = 4
+
+[node name="bolck108" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck108" index="0"]
+frame = 4
+
+[node name="bolck109" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck109" index="0"]
+frame = 4
+
+[node name="bolck110" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck110" index="0"]
+frame = 4
+
+[node name="bolck111" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck111" index="0"]
+frame = 4
+
+[node name="bolck112" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck112" index="0"]
+frame = 4
+
+[node name="bolck113" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck113" index="0"]
+frame = 4
+
+[node name="bolck114" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck114" index="0"]
+frame = 4
+
+[node name="bolck115" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck115" index="0"]
+frame = 4
+
+[node name="bolck116" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck116" index="0"]
+frame = 4
+
+[node name="bolck117" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck117" index="0"]
+frame = 4
+
+[node name="bolck118" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck118" index="0"]
+frame = 4
+
+[node name="bolck119" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck119" index="0"]
+frame = 4
+
+[node name="bolck120" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck120" index="0"]
+frame = 4
+
+[node name="bolck121" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck121" index="0"]
+frame = 4
+
+[node name="bolck122" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck122" index="0"]
+frame = 4
+
+[node name="bolck123" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 104 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck123" index="0"]
+frame = 4
+
+[node name="bolck55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck55" index="0"]
+frame = 4
+
+[node name="bolck60" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck60" index="0"]
+frame = 4
+
+[node name="bolck64" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck64" index="0"]
+frame = 4
+
+[node name="bolck69" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck69" index="0"]
+frame = 4
+
+[node name="bolck33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck33" index="0"]
+frame = 4
+
+[node name="bolck41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck41" index="0"]
+frame = 4
+
+[node name="bolck61" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck61" index="0"]
+frame = 4
+
+[node name="bolck70" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck70" index="0"]
+frame = 4
+
+[node name="bolck73" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck73" index="0"]
+frame = 4
+
+[node name="bolck76" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck76" index="0"]
+frame = 4
+
+[node name="bolck78" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck78" index="0"]
+frame = 4
+
+[node name="bolck80" parent="." instance=ExtResource( 1 )]
+position = Vector2( 234, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck80" index="0"]
+frame = 4
+
+[node name="bolck162" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck162" index="0"]
+frame = 4
+
+[node name="bolck82" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck82" index="0"]
+frame = 4
+
+[node name="bolck84" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck84" index="0"]
+frame = 4
+
+[node name="bolck85" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck85" index="0"]
+frame = 4
+
+[node name="bolck86" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck86" index="0"]
+frame = 4
+
+[node name="bolck87" parent="." instance=ExtResource( 1 )]
+position = Vector2( 522, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck87" index="0"]
+frame = 4
+
+[node name="bolck88" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck88" index="0"]
+frame = 4
+
+[node name="bolck89" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck89" index="0"]
+frame = 4
+
+[node name="bolck90" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck90" index="0"]
+frame = 4
+
+[node name="bolck127" parent="." instance=ExtResource( 1 )]
+position = Vector2( 106, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck127" index="0"]
+frame = 4
+
+[node name="bolck129" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck129" index="0"]
+frame = 4
+
+[node name="bolck130" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck130" index="0"]
+frame = 4
+
+[node name="bolck131" parent="." instance=ExtResource( 1 )]
+position = Vector2( 490, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck131" index="0"]
+frame = 4
+
+[node name="bolck133" parent="." instance=ExtResource( 1 )]
+position = Vector2( 426, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck133" index="0"]
+frame = 4
+
+[node name="bolck134" parent="." instance=ExtResource( 1 )]
+position = Vector2( 234, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck134" index="0"]
+frame = 4
+
+[node name="bolck135" parent="." instance=ExtResource( 1 )]
+position = Vector2( 170, 488 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck135" index="0"]
+frame = 4
+
+[node name="bolck128" parent="." instance=ExtResource( 1 )]
+position = Vector2( 106, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck128" index="0"]
+frame = 4
+
+[node name="bolck132" parent="." instance=ExtResource( 1 )]
+position = Vector2( 362, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck132" index="0"]
+frame = 4
+
+[node name="bolck136" parent="." instance=ExtResource( 1 )]
+position = Vector2( 298, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck136" index="0"]
+frame = 4
+
+[node name="bolck137" parent="." instance=ExtResource( 1 )]
+position = Vector2( 490, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck137" index="0"]
+frame = 4
+
+[node name="bolck140" parent="." instance=ExtResource( 1 )]
+position = Vector2( 426, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck140" index="0"]
+frame = 4
+
+[node name="bolck141" parent="." instance=ExtResource( 1 )]
+position = Vector2( 234, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck141" index="0"]
+frame = 4
+
+[node name="bolck146" parent="." instance=ExtResource( 1 )]
+position = Vector2( 170, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck146" index="0"]
+frame = 4
+
+[node name="bolck161" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck161" index="0"]
+frame = 2
+
+[node name="bolck160" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck160" index="0"]
+frame = 2
+
+[node name="bolck163" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck163" index="0"]
+frame = 2
+
+[node name="bolck183" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck183" index="0"]
+frame = 2
+
+[node name="bolck184" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 200 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck184" index="0"]
+frame = 2
+
+[node name="bolck164" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck164" index="0"]
+frame = 2
+
+[node name="bolck165" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck165" index="0"]
+frame = 2
+
+[node name="bolck173" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck173" index="0"]
+frame = 2
+
+[node name="bolck174" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck174" index="0"]
+frame = 2
+
+[node name="bolck166" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 232 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck166" index="0"]
+frame = 2
+
+[node name="bolck167" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 392 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck167" index="0"]
+frame = 2
+
+[node name="bolck172" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck172" index="0"]
+frame = 2
+
+[node name="bolck168" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 360 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck168" index="0"]
+frame = 2
+
+[node name="bolck169" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 328 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck169" index="0"]
+frame = 2
+
+[node name="bolck170" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck170" index="0"]
+frame = 2
+
+[node name="bolck171" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 264 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck171" index="0"]
+frame = 2
+
+[node name="bolck138" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck138" index="0"]
+frame = 4
+
+[node name="bolck139" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck139" index="0"]
+frame = 4
+
+[node name="bolck142" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck142" index="0"]
+frame = 4
+
+[node name="bolck145" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck145" index="0"]
+frame = 4
+
+[node name="bolck143" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck143" index="0"]
+frame = 4
+
+[node name="bolck144" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 520 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck144" index="0"]
+frame = 4
+
+[node name="bolck148" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck148" index="0"]
+frame = 4
+
+[node name="bolck149" parent="." instance=ExtResource( 1 )]
+position = Vector2( 266, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck149" index="0"]
+frame = 4
+
+[node name="bolck150" parent="." instance=ExtResource( 1 )]
+position = Vector2( 394, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck150" index="0"]
+frame = 4
+
+[node name="bolck153" parent="." instance=ExtResource( 1 )]
+position = Vector2( 458, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck153" index="0"]
+frame = 4
+
+[node name="bolck154" parent="." instance=ExtResource( 1 )]
+position = Vector2( 202, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck154" index="0"]
+frame = 4
+
+[node name="bolck155" parent="." instance=ExtResource( 1 )]
+position = Vector2( 138, 40 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="color_sprites" parent="bolck155" index="0"]
+frame = 4
+
+[node name="diamond_blok" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 24 )
+
+[node name="diamond_blok3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 64, 520 )
+
+[node name="diamond_blok2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 576, 24 )
+
+[node name="diamond_blok4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 535, 518 )
+
+[editable path="bolck175"]
+[editable path="bolck176"]
+[editable path="bolck177"]
+[editable path="bolck178"]
+[editable path="bolck179"]
+[editable path="bolck180"]
+[editable path="bolck181"]
+[editable path="bolck182"]
+[editable path="bolck29"]
+[editable path="bolck32"]
+[editable path="bolck37"]
+[editable path="bolck40"]
+[editable path="bolck45"]
+[editable path="bolck47"]
+[editable path="bolck48"]
+[editable path="bolck50"]
+[editable path="bolck53"]
+[editable path="bolck56"]
+[editable path="bolck65"]
+[editable path="bolck66"]
+[editable path="bolck75"]
+[editable path="bolck125"]
+[editable path="bolck67"]
+[editable path="bolck68"]
+[editable path="bolck74"]
+[editable path="bolck77"]
+[editable path="bolck71"]
+[editable path="bolck79"]
+[editable path="bolck81"]
+[editable path="bolck97"]
+[editable path="bolck126"]
+[editable path="bolck99"]
+[editable path="bolck72"]
+[editable path="bolck83"]
+[editable path="bolck92"]
+[editable path="bolck94"]
+[editable path="bolck93"]
+[editable path="bolck95"]
+[editable path="bolck96"]
+[editable path="bolck98"]
+[editable path="bolck100"]
+[editable path="bolck101"]
+[editable path="bolck102"]
+[editable path="bolck103"]
+[editable path="bolck104"]
+[editable path="bolck105"]
+[editable path="bolck106"]
+[editable path="bolck107"]
+[editable path="bolck108"]
+[editable path="bolck109"]
+[editable path="bolck110"]
+[editable path="bolck111"]
+[editable path="bolck112"]
+[editable path="bolck113"]
+[editable path="bolck114"]
+[editable path="bolck115"]
+[editable path="bolck116"]
+[editable path="bolck117"]
+[editable path="bolck118"]
+[editable path="bolck119"]
+[editable path="bolck120"]
+[editable path="bolck121"]
+[editable path="bolck122"]
+[editable path="bolck123"]
+[editable path="bolck55"]
+[editable path="bolck60"]
+[editable path="bolck64"]
+[editable path="bolck69"]
+[editable path="bolck33"]
+[editable path="bolck41"]
+[editable path="bolck61"]
+[editable path="bolck70"]
+[editable path="bolck73"]
+[editable path="bolck76"]
+[editable path="bolck78"]
+[editable path="bolck80"]
+[editable path="bolck162"]
+[editable path="bolck82"]
+[editable path="bolck84"]
+[editable path="bolck85"]
+[editable path="bolck86"]
+[editable path="bolck87"]
+[editable path="bolck88"]
+[editable path="bolck89"]
+[editable path="bolck90"]
+[editable path="bolck127"]
+[editable path="bolck129"]
+[editable path="bolck130"]
+[editable path="bolck131"]
+[editable path="bolck133"]
+[editable path="bolck134"]
+[editable path="bolck135"]
+[editable path="bolck128"]
+[editable path="bolck132"]
+[editable path="bolck136"]
+[editable path="bolck137"]
+[editable path="bolck140"]
+[editable path="bolck141"]
+[editable path="bolck146"]
+[editable path="bolck161"]
+[editable path="bolck160"]
+[editable path="bolck163"]
+[editable path="bolck183"]
+[editable path="bolck184"]
+[editable path="bolck164"]
+[editable path="bolck165"]
+[editable path="bolck173"]
+[editable path="bolck174"]
+[editable path="bolck166"]
+[editable path="bolck167"]
+[editable path="bolck172"]
+[editable path="bolck168"]
+[editable path="bolck169"]
+[editable path="bolck170"]
+[editable path="bolck171"]
+[editable path="bolck138"]
+[editable path="bolck139"]
+[editable path="bolck142"]
+[editable path="bolck145"]
+[editable path="bolck143"]
+[editable path="bolck144"]
+[editable path="bolck148"]
+[editable path="bolck149"]
+[editable path="bolck150"]
+[editable path="bolck153"]
+[editable path="bolck154"]
+[editable path="bolck155"]
